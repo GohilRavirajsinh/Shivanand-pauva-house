@@ -91,7 +91,7 @@ const Products = () => {
                                     className="bg-primary/5 rounded-[2.5rem] p-6 flex flex-col md:flex-row gap-8 border border-primary/10 hover:border-primary/30 transition-all group"
                                 >
                                     <div className="w-full md:w-48 h-48 rounded-[2rem] overflow-hidden flex-shrink-0 bg-white">
-                                        <img src={c.image || "/src/assets/combo.png"} alt={c.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                                        <img src={c.image || "/assets/combo.png"} alt={c.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                                     </div>
                                     <div className="flex flex-col justify-center py-2">
                                         <div className="flex items-center gap-3 mb-2">
